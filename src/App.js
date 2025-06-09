@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="container py-4">
-      <h1 className="text-center">🎬 My Movie App</h1>
+      <h1 className="text-center">🎬 Chuka`s Movie App</h1>
       <Filter setTitleFilter={setTitleFilter} setRateFilter={setRateFilter} />
       <AddMovie onAdd={handleAddMovie} />
       <MovieList movies={filteredMovies} />
